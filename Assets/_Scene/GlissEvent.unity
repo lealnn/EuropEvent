@@ -680,6 +680,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: EscaladeChalet
       objectReference: {fileID: 0}
+    - target: {fileID: 2934710432213320471, guid: d3da2a2f3847c0448b9afa094dfc5ecb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c8c119ba46e1b554cb89e0d7c7813dd8, type: 2}
+    - target: {fileID: 2934710432213320471, guid: d3da2a2f3847c0448b9afa094dfc5ecb, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: c8c119ba46e1b554cb89e0d7c7813dd8, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3da2a2f3847c0448b9afa094dfc5ecb, type: 3}
 --- !u!1001 &1575880255
