@@ -1152,20 +1152,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.007511444, y: 0.016463505, z: 0.011778889}
   m_Center: {x: 0.00006526592, y: -0.0018865422, z: -0.0019465724}
---- !u!64 &5836538697266483118
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7870904267565326847}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5810608970629904735, guid: dae9aea8c8907494d9f085735255319f, type: 3}
 --- !u!1 &7060087767461716231
 GameObject:
   m_ObjectHideFlags: 0
@@ -2479,6 +2465,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0037323378, y: 0.00037510035, z: 0.004907436}
   m_Center: {x: 0.000040522194, y: -0.0000000017826096, z: 0.00014308398}
+--- !u!64 &5836538697266483118
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7870904267565326847}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5810608970629904735, guid: dae9aea8c8907494d9f085735255319f, type: 3}
 --- !u!1 &7870904268503291727
 GameObject:
   m_ObjectHideFlags: 0
@@ -2782,6 +2782,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: dae9aea8c8907494d9f085735255319f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e00642692d7cc1d4ba14244c192c9c6d, type: 2}
     - target: {fileID: 919132149155446097, guid: dae9aea8c8907494d9f085735255319f, type: 3}
       propertyPath: m_Name
       value: Chalet
